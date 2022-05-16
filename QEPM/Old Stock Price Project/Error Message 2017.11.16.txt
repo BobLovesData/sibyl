@@ -1,0 +1,2 @@
+Msg 515, Level 16, State 2, Procedure sp_ProcessFactAssetPrices, Line 30 [Batch Start Line 0]
+Cannot insert the value NULL into column 'AssetsCK', table 'ODS.cm.FactAssetPrices'; column does not allow nulls. INSERT fails.

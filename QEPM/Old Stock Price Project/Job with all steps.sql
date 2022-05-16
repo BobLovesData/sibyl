@@ -1,0 +1,10 @@
+EXEC sp_CleanEODPricesData
+GO
+EXEC sp_CleanEODAssetData
+GO
+EXEC sp_ProcessDimAssets
+GO
+EXEC sp_ProcessFactAssetPrices
+GO
+EXEC sp_MarkRecordsAsProcessed
+GO
