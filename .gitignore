@@ -104,9 +104,9 @@ venv.bak/
 .mypy_cache/
 
 #windows files
-.ini
+*.ini
 
 #other files
 config.yaml
 *.bak
-.idea
+*.idea
