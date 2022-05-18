@@ -18,3 +18,15 @@ WHERE IsNumeric(BC_6MONTH) = 0
 
 UPDATE [ODS].[fred].[TreasuryYieldCurveData]
 SET CLEANSED = 0
+
+---Jobs
+EXEC sp_CleanEODPricesData
+GO
+EXEC sp_CleanEODAssetData
+GO
+EXEC sp_ProcessDimAssets
+GO
+EXEC sp_ProcessFactAssetPrices
+GO
+EXEC sp_MarkRecordsAsProcessed
+GO
