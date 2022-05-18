@@ -25,7 +25,7 @@ class Email:
         print(self.message)
         msg = EmailMessage()
         msg['From'] = from_address
-        msg['To'] = 'drewhuslig@gmail.com'  # to_address
+        msg['To'] = ''  # to_address
         msg['Subject'] = self.subject
         msg.set_content(self.message)
 
